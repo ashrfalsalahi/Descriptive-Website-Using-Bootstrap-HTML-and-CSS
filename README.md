@@ -60,6 +60,6 @@ Contact form for seamless communication with visitors.
 
 
 
-هل تحتاج تعديلات إضافية؟
+
 
 
