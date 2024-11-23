@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+
+/* Copyright reserved with ENG:ASHRAF AL-SALAHI  */
+
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Reem+Kufi:wght@400..700&display=swap');
+* {
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 0px 100px;
+    border-top: solid crimson 4px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header:hover {
+    border-top: solid #1abc9c 4px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: ease 1s;
+}
+
+footer {
+    display: flex;
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    justify-content: space-around;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.footer social-icons-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    margin: 10px 100px;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+}
+
+.social-icons-footer a:hover {
+    border-top: solid #1abc9c 4px;
+}
+
+.social-icons-footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 30px;
+    transition: ease 1s;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.footer .copyright h1 {
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    margin: 20px 20px;
+    padding: 30px 30px;
+    font-size: 200px;
+}
+
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.up:hover {
+    background-color: #1abc9c;
+}
+
+header a:hover {
+    font-size: 24px;
+    color: #1abc9c
+}
+
+.carsour {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 100px;
+    background-image: url(images/laptup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    background-position: center;
+}
+
+.carsour span {
+    color: crimson;
+}
+
+.carsour h2 {
+    color: #2c3e50;
+}
+
+.carsour a {
+    color: white;
+    text-decoration: none;
+    background-color: #1abc9c;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    transition: ease 1s;
+    font-weight: 700;
+}
+
+.carsour a:hover {
+    transform: scale(1.1);
+    background-color: #2c3e50;
+}
+
+.services h2 {
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 40px;
+}
+
+.services .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+    justify-content: center;
+}
+
+.services .card {
+    margin-right: 20px;
+    box-shadow: 3px 3px 6px #ccc;
+    padding: 10px;
+    width: 16em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.card h3 {
+    color: crimson;
+    font-weight: 1000;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.services .card>div {
+    color: #2c3e50;
+}
+
+.protofilio {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.protofilio h2 {
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 40px;
+}
+
+.protofilio .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.protofilio .card {
+    background-color: white;
+    border: solid;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    width: 16em;
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.protofilio button {
+    border-radius: 10px;
+    color: white;
+    background-color: #1abc9c;
+    padding: 0px 8px;
+    border: none;
+    transition: 1s ease;
+}
+
+.protofilio button:hover {
+    transform: scale(1.1);
+}
+
+.protofilio .card-desc {
+    margin: 0px 10px;
+}
+
+.protofilio .card-desc p {
+    font-size: 12px;
+    line-height: 1.32;
+    font-weight: 700;
+}
+
+.protofilio .card-desc button {
+    align-self: end;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.protofilio img {
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.notilla {
+    padding: 30px 30px;
+    display: inline-flex;
+}
+
+.notilla .notilla-h h1 {
+    color: crimson;
+    padding: 30px 30px;
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 40px;
+}
+
+.notilla p {
+    font-size: 12px;
+    direction: rtl;
+}
+
+.notilla h2 {
+    color: crimson;
+    font-size: 15px;
+    text-align: center;
+}
+
+.notilla-desc {
+    width: 50%;
+}
+
+.notilla-desc:hover {
+    transform: translate(42px, 18px);
+}
+
+.notilla-image {
+    width: 40%;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0 0 0 / 40%);
+    background-size: cover;
+    justify-content: end;
+    align-items: end;
+    padding: 10px 10px;
+    float: left;
+}
+
+.notilla-image-rtl {
+    width: 40%;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0 0 0 / 40%);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.image-rtl {
+    margin-left: 30px !important;
+    margin-right: 0px !important;
+}
+
+.about h2 {
+    color: white;
+    text-align: center;
+    border-bottom: solid white;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 40px;
+}
+
+.about {
+    padding: 50px;
+    background-image: url(images/5.jpg);
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.about>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 16em;
+    height: 16em;
+    border: solid white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.about .me {
+    border-radius: 10%;
+    width: 16em;
+    height: 16em;
+    border: solid white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.map {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background: #ccc;
+}
+
+.map div {
+    width: 100% !important;
+    padding: 10px;
+    box-shadow: 0 10px 35px 0px lightblue !important;
+    background-color: white;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact {
+    padding: 100px;
+    background: rgb(26, 188, 173);
+    background: linear-gradient(0deg, rgba(26, 188, 173, 1) 22%, rgba(29, 91, 153, 0.8911939775910365) 64%);
+    text-align: center;
+    background-color: #2c3e50;
+}
+
+.contact h2 {
+    color: white;
+    margin-bottom: 50px;
+    border-bottom: solid;
+    display: flex;
+    text-align: center;
+    margin: 10px 10px;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.contact .social-hedar1 {
+    text-align: right;
+    color: white;
+    margin-bottom: 100px;
+    border-bottom: solid;
+    display: flex;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact .social-icons a {
+    color: white;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact .social-icons .social-icons1 {
+    color: rgb(255, 255, 255);
+    justify-content: start;
+    display: flex;
+    text-align: start;
+    text-decoration: none;
+}
+
+.contact .social-h3 {
+    color: white;
+    justify-content: start;
+    font-size: 15px;
+    display: inline-table;
+    padding: 10px 10px;
+    text-align: start;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+.contact .social-h3:hover {
+    color: #2c3e50;
+    justify-content: center;
+    font-size: 15px;
+    display: flex;
+    padding: 10px 10px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 9px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.contact .social-icons .social-icons1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social-hedar2 h2 {
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 10px 10px;
+}
+
+.social-hedar2 .social-hh3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 10px 50px;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    padding-top: 0px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.social-hedar2 .social-hh3 .social-h3 {
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.social-hh3 .social-h3 {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.contact .social-hedar2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    text-decoration: none;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.contact .social-icons1 .social-hedar2 h2 {
+    font-size: 20px;
+    font-weight: 750;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #2c3e50;
+    text-align: center;
+    display: inline;
+    align-content: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.social-hedar2 a:hover {
+    justify-content: space-between;
+    color: #2c3e50;
+    text-align: center;
+    background-color: white;
+}
+
+.social-icons .note h2 {
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 20px;
+    display: inline-flex;
+    text-decoration: overline;
+}
+
+.contact h3 {
+    color: white;
+}
+
+.input-form {
+    border: 0;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.input-form input {
+    border: none;
+    border-bottom: solid #1abc9c;
+    outline: none;
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.input-form input:hover~label,
+.input-form input:valid~label {
+    top: 13%;
+    transform: translateY(-40%);
+    align-items: center;
+}
+
+.input-form label {
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    transition: all 1s;
+    pointer-events: none;
+    text-align: center;
+    color: #2c3e50;
+    justify-content: center;
+    display: flexbox;
+    margin-right: 50%;
+}
+
+.send {
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2c3e50;
+    color: white;
+    transition: all 1s;
+}
+
+.send:hover {
+    transform: scale(1.1);
+    background-color: #1abc9c;
+}
+
+
+/* scoll */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: crimson;
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1abc9c;
+}
+
+
+/* Copyright reserved with ENG:ASHRAF AL-SALAHI */
